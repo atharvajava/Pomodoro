@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Varela+Round'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <center><div>
+  <h1>Pomodoro Clock<h1>
+    <h5> Manage your work more efficiently</h5>
+    <!--This div contains the design for your timer-->
+    <div class="time">
+      <br><br><h3 id='t1'>Session</h3>
+      <button id='decrease' type='button'>-</button>
+      <h4 id='count'>5</h4>
+      <button id='increase' type='button'>+</button>
+      <button id='reset' type='button'>Reset</button>
+      <!-- Design for break -->
+    </div><br>
+    <div class="breakTime">
+      <h3 id='t2'>Break Time</h3>
+      <button id='decreaseBreak' type='button'>-</button>
+      <h4 id='breakCount'>5</h4>
+      <button id='increaseBreak' type='button'>+</button>
+    </div>
+    <button id='start' type='button'>Start</button>
+ </div></center>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
